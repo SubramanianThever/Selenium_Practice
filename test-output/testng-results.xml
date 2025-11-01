@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-30T10:39:14 IST" name="Groupshandling" finished-at="2025-10-30T10:39:15 IST" duration-ms="459">
+    <groups>
+      <group name="functional">
+        <method signature="PaymentGroupingHandling.PaymentRupees()[pri:1, instance:TestNGPractice.PaymentGroupingHandling@3427b02d]" name="PaymentRupees" class="TestNGPractice.PaymentGroupingHandling"/>
+        <method signature="PaymentGroupingHandling.PaymentDollars()[pri:2, instance:TestNGPractice.PaymentGroupingHandling@3427b02d]" name="PaymentDollars" class="TestNGPractice.PaymentGroupingHandling"/>
+      </group> <!-- functional -->
+      <group name="Sanity">
+        <method signature="LoginGroupingHandling.facebooklogin()[pri:1, instance:TestNGPractice.LoginGroupingHandling@31c88ec8]" name="facebooklogin" class="TestNGPractice.LoginGroupingHandling"/>
+        <method signature="PaymentGroupingHandling.PaymentRupees()[pri:1, instance:TestNGPractice.PaymentGroupingHandling@3427b02d]" name="PaymentRupees" class="TestNGPractice.PaymentGroupingHandling"/>
+        <method signature="LoginGroupingHandling.Instalogin()[pri:2, instance:TestNGPractice.LoginGroupingHandling@31c88ec8]" name="Instalogin" class="TestNGPractice.LoginGroupingHandling"/>
+        <method signature="PaymentGroupingHandling.PaymentDollars()[pri:2, instance:TestNGPractice.PaymentGroupingHandling@3427b02d]" name="PaymentDollars" class="TestNGPractice.PaymentGroupingHandling"/>
+        <method signature="LoginGroupingHandling.Emaillogin()[pri:3, instance:TestNGPractice.LoginGroupingHandling@31c88ec8]" name="Emaillogin" class="TestNGPractice.LoginGroupingHandling"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="PaymentGroupingHandling.PaymentRupees()[pri:1, instance:TestNGPractice.PaymentGroupingHandling@3427b02d]" name="PaymentRupees" class="TestNGPractice.PaymentGroupingHandling"/>
+        <method signature="SignupGroupingHandling.facebooklogin()[pri:1, instance:TestNGPractice.SignupGroupingHandling@28eaa59a]" name="facebooklogin" class="TestNGPractice.SignupGroupingHandling"/>
+        <method signature="PaymentGroupingHandling.PaymentDollars()[pri:2, instance:TestNGPractice.PaymentGroupingHandling@3427b02d]" name="PaymentDollars" class="TestNGPractice.PaymentGroupingHandling"/>
+        <method signature="SignupGroupingHandling.Instalogin()[pri:2, instance:TestNGPractice.SignupGroupingHandling@28eaa59a]" name="Instalogin" class="TestNGPractice.SignupGroupingHandling"/>
+        <method signature="SignupGroupingHandling.Emaillogin()[pri:3, instance:TestNGPractice.SignupGroupingHandling@28eaa59a]" name="Emaillogin" class="TestNGPractice.SignupGroupingHandling"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-10-30T10:39:14 IST" name="GroupsTest" finished-at="2025-10-30T10:39:15 IST" duration-ms="459">
+      <class name="TestNGPractice.PaymentGroupingHandling">
+        <test-method signature="PaymentRupees()[pri:1, instance:TestNGPractice.PaymentGroupingHandling@3427b02d]" started-at="2025-10-30T10:39:15 IST" name="PaymentRupees" finished-at="2025-10-30T10:39:15 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentRupees -->
+        <test-method signature="PaymentDollars()[pri:2, instance:TestNGPractice.PaymentGroupingHandling@3427b02d]" started-at="2025-10-30T10:39:15 IST" name="PaymentDollars" finished-at="2025-10-30T10:39:15 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentDollars -->
+      </class> <!-- TestNGPractice.PaymentGroupingHandling -->
+      <class name="TestNGPractice.SignupGroupingHandling">
+        <test-method signature="facebooklogin()[pri:1, instance:TestNGPractice.SignupGroupingHandling@28eaa59a]" started-at="2025-10-30T10:39:14 IST" name="facebooklogin" finished-at="2025-10-30T10:39:14 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklogin -->
+        <test-method signature="Instalogin()[pri:2, instance:TestNGPractice.SignupGroupingHandling@28eaa59a]" started-at="2025-10-30T10:39:14 IST" name="Instalogin" finished-at="2025-10-30T10:39:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Instalogin -->
+        <test-method signature="Emaillogin()[pri:3, instance:TestNGPractice.SignupGroupingHandling@28eaa59a]" started-at="2025-10-30T10:39:14 IST" name="Emaillogin" finished-at="2025-10-30T10:39:14 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emaillogin -->
+      </class> <!-- TestNGPractice.SignupGroupingHandling -->
+      <class name="TestNGPractice.LoginGroupingHandling">
+        <test-method signature="facebooklogin()[pri:1, instance:TestNGPractice.LoginGroupingHandling@31c88ec8]" started-at="2025-10-30T10:39:14 IST" name="facebooklogin" finished-at="2025-10-30T10:39:14 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklogin -->
+        <test-method signature="Instalogin()[pri:2, instance:TestNGPractice.LoginGroupingHandling@31c88ec8]" started-at="2025-10-30T10:39:14 IST" name="Instalogin" finished-at="2025-10-30T10:39:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Instalogin -->
+        <test-method signature="Emaillogin()[pri:3, instance:TestNGPractice.LoginGroupingHandling@31c88ec8]" started-at="2025-10-30T10:39:14 IST" name="Emaillogin" finished-at="2025-10-30T10:39:14 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emaillogin -->
+      </class> <!-- TestNGPractice.LoginGroupingHandling -->
+    </test> <!-- GroupsTest -->
+  </suite> <!-- Groupshandling -->
+</testng-results>

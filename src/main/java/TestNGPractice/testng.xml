@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AnnotationHandling">
+  <test name="AnnotationPractice1">
+    <classes>
+      <class name="TestNGPractice.SecondClass"/>
+    </classes>
+     </test>
+  <test name="AnnotationPractice2">
+    <classes>
+      <class name="TestNGPractice.Firstclass"/>
+    </classes>    
+  </test> <!-- AnnotationPractice -->
+</suite> <!-- AnnotationHandling -->
+
+
